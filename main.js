@@ -1,3 +1,4 @@
+// inject with chrome extension https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld/related
 jQuery(document).ready(function () {
     setTimeout(function () {
         jQuery('h2[data-comp="totalDuration"').after('<h2 class="decHrs" style="margin-left:5px;">(' + calcDecHrs() + ')</h2>');
